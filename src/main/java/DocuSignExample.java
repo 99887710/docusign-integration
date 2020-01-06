@@ -14,13 +14,13 @@ public class DocuSignExample {
         // Fill in these constants
         //
         // Obtain an OAuth access token from https://developers.hqtest.tst/oauth-token-generator
-        String accessToken = "eyJ0eXAiOiJNVCIsImFsZyI6IlJTMjU2Iiwia2lkIjoiNjgxODVmZjEtNGU1MS00Y2U5LWFmMWMtNjg5ODEyMjAzMzE3In0.AQkAAAABAAUABwCA2h1A9GTWSAgAgBpBTjdl1kgCAEhUkmY-4NNLsGnNocdTok0VAAEAAAAYAAEAAAAFAAAADQAkAAAAZjBmMjdmMGUtODU3ZC00YTcxLWE0ZGEtMzJjZWNhZTNhOTc4EgABAAAACwAAAGludGVyYWN0aXZlMACA2h1A9GTWSA.qV43KLKdl_hLUa2lYcWvlT42K2b-VRXEi5jZmgd843IW3xd96Ezfju24kODnMp3yxooUjWyb16D_vRLk7XTLpvtqb2CODtLA6nZYQ_eFPdbsyjyshm2f18lY4k18TOqa6Eq31l-VOyoTGJSr8Lb38wGbcn7ZaN3tFj_esJuQYLHK5ZXgN5AEhwzu3Je1sDkvgjCFXmaEv3apY2XZ17n74hBOqZDc1Q67kElfClxQyeEuQ-p4aoVgLQ-cuSbBQdvyFM8ajJIc8lP_nP8BEz75zVPUt8-OtdUF_JBRXJPJ0gNp2C6XaQZUXppzhs8f7iWViv71Y8SEmHtwOb9pz6ISeA";
+        String accessToken = "YourAccessToken"
         // Obtain your accountId from demo.docusign.com -- the account id is shown in the drop down on the
         // upper right corner of the screen by your picture or the default picture.
-        String accountId = "be22dc43-072b-427a-aa7d-2894f9c2df89";
+        String accountId = "YourAccountId";
         // Recipient Information
-        String signerName = "jeff wu";
-        String signerEmail = "Jeff.Wu@retailmerchantservices.co.uk";
+        String signerName = "Bob";
+        String signerEmail = "Bob.Brown@gmail.com";
 
         // The url for this web application
         String baseUrl = "http://localhost:8080";
